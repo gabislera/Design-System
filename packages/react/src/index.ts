@@ -1,1 +1,3 @@
-import { } from '@ignite-ui/tokens'
+import { colors } from '@ignite-ui/tokens'
+
+console.log(colors)
