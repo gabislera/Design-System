@@ -8,7 +8,8 @@
     "dev": "storybook dev -p 6006",
     "build": "storybook build",
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "build-storybook": "storybook build",
+    "deploy-storybook": "storybook-to-ghpages"
   },
   "keywords": [],
   "author": "",
@@ -21,6 +22,7 @@
     "@storybook/blocks": "^7.3.2",
     "@storybook/react": "^7.3.2",
     "@storybook/react-vite": "^7.3.2",
+    "@storybook/storybook-deployer": "^2.8.16",
     "@storybook/testing-library": "^0.2.0",
     "@vitejs/plugin-react": "^4.0.4",
     "prop-types": "^15.8.1",
@@ -33,6 +35,7 @@
     "@ignite-ui/tokens": "*",
     "@ignite-ui/ts-config": "*",
     "@phosphor-icons/react": "^2.0.10",
+    "@storybook/addon-a11y": "^7.3.2",
     "polished": "^4.2.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
