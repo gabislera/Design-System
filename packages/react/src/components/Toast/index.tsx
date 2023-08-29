@@ -15,7 +15,7 @@ export function Toast({ open, onOpenChange, title, content, ...props }: ToastPro
         open={open}
         onOpenChange={onOpenChange}
         defaultOpen={true}
-        duration={20000}
+        duration={2000}
         {...props}
       >
         <div>
